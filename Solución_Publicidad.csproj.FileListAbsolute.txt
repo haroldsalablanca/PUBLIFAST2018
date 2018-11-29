@@ -1,0 +1,6 @@
+D:\Nueva carpeta\2\Solución_Publicidad\Solución_Publicidad\bin\Solución_Publicidad.dll.config
+D:\Nueva carpeta\2\Solución_Publicidad\Solución_Publicidad\bin\Solución_Publicidad.dll
+D:\Nueva carpeta\2\Solución_Publicidad\Solución_Publicidad\bin\Solución_Publicidad.pdb
+D:\Nueva carpeta\2\Solución_Publicidad\Solución_Publicidad\obj\Debug\Solución_Publicidad.csprojResolveAssemblyReference.cache
+D:\Nueva carpeta\2\Solución_Publicidad\Solución_Publicidad\obj\Debug\Solución_Publicidad.dll
+D:\Nueva carpeta\2\Solución_Publicidad\Solución_Publicidad\obj\Debug\Solución_Publicidad.pdb
