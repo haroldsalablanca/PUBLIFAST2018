@@ -1,21 +1,20 @@
 <!DOCTYPE html>
-
-	<?php
-	session_start();
-	if (@!$_SESSION['user']) {
-		header("Location:index.php");
-	}elseif ($_SESSION['rol']==1) {
-		header("Location:admin.php");
-	}
-	?>
-
+<?php
+session_start();
+if (@!$_SESSION['user']) {
+header("location:index.php");
+}elseif ($_SESSION['rol']==1) {
+header("location:admin.php");
+}
+?>
+	
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Proyecto Academias</title>
+    <title>PUBLISH FAST</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="author" content="Joseph Godoy">
+      
 
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
     <script src="bootstrap/js/jquery-1.8.3.min.js"></script>
@@ -32,47 +31,73 @@
 <div class="container">
 <header class="header">
 <div class="row">
-	<?php
-	include("include/cabecera.php");
-	?>
-</div>
+	<!DOCTYPE html>
+<h1 class="span">Servicios Publicitarios "PublishFast"</h1></div>
 </header>
+    
+    
+    
 
   <!-- Navbar
     ================================================== -->
-<?php
+<!DOCTYPE html>
 
-include("include/menu.php");
-
-?>
-<!-- ======================================================================================================================== -->
+<div class="navbar">
+  <div class="navbar-inner">
+	<div class="container">
+	  <div class="nav-collapse">
+		<ul class="nav">
+			<li class=""><a href="index2.php">Inicio</a></li>
+	
+		</ul>
+		<form action="#" class="navbar-search form-inline" style="margin-top:6px">
+		
+		</form>
+		<ul class="nav pull-right">
+				<li><a href="">Bienvenido <strong> </strong> </a></li>
+              <li><a href="connect_db.php"> Quienes somos </a>
+                             
+            </li>
+               <li><a href="connect_db.php"> Municipios </a>
+            
+            </li>
+              <li><a href="connect_db.php">  Servicios</a>
+                 
+            </li>
+			  <li><a href="desconectar.php"> Cerrar Cesión </a></li>
+                
+		</ul>
+	  </div><!-- /.nav-collapse -->
+	</div>
+  </div><!-- /navbar-inner -->
+</div>
+</html><!-- ======================================================================================================================== -->
 
 <div id="myCarousel" class="carousel slide homCar">
 		<div class="carousel-inner" style="border-top:18px solid #222; border-bottom:1px solid #222; border-radius:4px;">
 		  <div class="item active">
-			<img src="images/pascomputacion.jpg" alt="#" style="min-height:250px; min-width:100%"/>
+			<img src="images/celudiji.pjg.jpg" alt="#" style="min-height:250px; min-width:100%"/>
 			<div class="carousel-caption">
-				  <h4>Comptación Básica</h4>
+				  <h4>Publica Tu Negocio</h4>
 				  <p>
-				   recuerde que en esta disciplina la práctica es la que da el dominio en el uso de las herramientas, estaremos siempre a la orden para compartir con usted experiencias y sobretodo para ayudarlo en el aprendizaje.
+				  
 				  </p>
 			</div>
 		  </div>
 		  <div class="item">
-			<img src="images/pastopografia.jpg" alt="#" style="min-height:250px; min-width:100%"/>
+			<img src="images/robot.pjg.png" alt="#" style="min-height:250px; min-width:100%"/>
 			<div class="carousel-caption">
-				  <h4>Topografía</h4>
+				  <h4>Ofrece tus productos</h4>
 				  <p>
-				  La topografía aplicada permite adquirir los conocimientos necesarios para realizar levantamientos topográficos para futuras aplicaciones y proporciona la capacidad para resolver problemas que se presentan en el campo.
+				  
 				  </p>
 			</div>
 		  </div>
 		  <div class="item">
-			<img src="images/pasalgebra.jpg" alt="#" style="min-height:250px; min-width:100%"/>
+			<img src="images/blanco.pjg.png" alt="#" style="min-height:250px; min-width:100%"/>
 			<div class="carousel-caption">
-				  <h4>Curso de Algebra Lineal </h4>
-				  <p>
-				  No olvide que la clave del éxito en el estudio de las herramientas matemáticas radica en el entendimiento cabal de los conceptos fundamentales y la aplicación razonada enla resolución de problemas.
+				  <h4>haz que tu negocio sea el mejor en el Mercado </h4>
+				 
 				  </p>
 			</div>
 		  </div>
@@ -80,42 +105,42 @@ include("include/menu.php");
 	<a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
 	<a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
 </div>
-<h3>Todos nuestros cursos</h3>
+<h3>Servicios que ofrece</h3>
 <div class="row" style="text-align:center">
 			<div class="span2">
 				<div class="well well-small">
-					<h4>Algebra Lineal</h4>
+					<h4>Ubicacion de tu negocio</h4>
 					<a href="al.php"><small>Ver detalles</small></a>
 				</div>
 			</div>
 			
 			<div class="span2">
 				<div class="well well-small">
-					<h4>Topografía Elemental</h4>
+					<h4>Visita cada municipio</h4>
 					<a href="te.php"><small>Ver detalles</small></a>
 				</div>
 			</div>
 			<div class="span2">
 				<div class="well well-small">
-					<h4>Fundamentos Informáticos</h4>
+					<h4>Consulta a cada negocio</h4>
 					<a href="fi.php"><small>Ver detalles</small></a>
 				</div>
 			</div>
 			<div class="span2">
 				<div class="well well-small">
-					<h4>Fundamentos de programación</h4>
+					<h4>Busca tu producto</h4>
 					<a href="fp.php"><small>Ver detalles</small></a>
 				</div>
 			</div>
 			<div class="span2">
 				<div class="well well-small">
-					<h4>Fundamentos Matemáticos</h4>
+					<h4>Eventos en Chontales</h4>
 					<a href="fm.php"><small>Ver detalles</small></a>
 				</div>
 			</div>
 			<div class="span2">
 				<div class="well well-small">
-					<h4>Matemáticas Discretas</h4>
+					<h4> Destinosde Chontales</h4>
 					<a href="md.php"><small>Ver detalles</small></a>
 				</div>
 			</div>
@@ -123,11 +148,11 @@ include("include/menu.php");
 	
 			<div class="span12">
 				<div class="well well-small">
-					<h4 >La educación a distancia, Fundamentos, Teorias y Contribuciones</h4>
+					<h4 >Se parte y conoce mejor lugares turisticos en Chontales</h4>
 					<a href="edf.php"><small>Ver detalles</small></a>
 
 					
-					<h4>Material Impreso en la educación a distancia</h4>
+					<h4>Negocios que te pueden realizar envio de tu producto</h4>
 					<a href="mie.php"><small>Ver detalles</small></a>
 
 
@@ -137,18 +162,18 @@ include("include/menu.php");
 			
 			
 </div>
-<h3>Nuestros cursos mas sobresalientes</h3>
+<h3>Sobre nosotros</h3>
 <div class="row">
 
 	<div class="span4">
 	<div class="thumbnail">
-	<h3 style="text-align:center">Algebra Lineal</h3>	
-	<img src="images/algebra.jpg" alt="#"/>
+	<h3 style="text-align:center">"Quienes somos</h3>	
+	<img src="images/somos.pjg.jpg" alt="#"/>
 	<div class="caption">
-	<h5>Descripción del Curso</h5>	
+	<h5></h5>	
 	<p align="justify">
 	
-El álgebra lineal es una teoría matemática degeneralizaciones y métodos de análisis, en la que los conceptos son tanimportantes como los cálculos. El álgebra lineal pretende descubrir y matematizar las relaciones existentes entrelas distintas variables que caracterizan un fenómeno o un proceso. El álgebra lineal se aplica en distintos campos dela ciencia y tecnología como los modelos de pronóstico del clima, la investigación de operaciones, la utilización de reómetros, manejo de robots,las ciencias administrativas, etc.
+PublishFast, un comercio electronico que ofrece servicios publicitarios, para los distintos negocios que existen el en municipio de chontales.
 	</p>
 	<a class="pull-right" href="al.php">Ver detalles</a>
 	<br/>
@@ -158,13 +183,14 @@ El álgebra lineal es una teoría matemática degeneralizaciones y métodos de a
 
 	<div class="span4">
 	<div class="thumbnail">
-	<h3 style="text-align:center">Topografía Aplicada</h3>	
-	<img src="images/topografia.jpg" />
+	<h3 style="text-align:center">PublishFast</h3>	
+	<img src="" />
 	<div class="caption">
-	<h5> Descrioción del Curso</h5>	
+	<h5> Mision y Vision</h5>	
 	<p align="justify">
-	
-La topografía aplicada permite adquirir los conocimientos necesarios para realizar levantamientos topográficos para futuras aplicaciones y proporciona la capacidad para resolver problemas que se presentan en el campo. Su estudio es de gran importancia para el diseño de Obras de Ingeniería Civil.
+                         
+        PublishFast, es un Apps web privada que ofrece servicios publicitarios de aceptacion para promover las micro y las medianas empresas del municipio de juigalpa chontales, capasces de involucrar las nuevas formas de comercio electronico, diseñando un medio que obtenga beneficios para los clienets a nivel municipal. <br><br>
+        Sera una Apps web capaz de brindar servicios publicitarios para la gestion de los puntos comerciales del municipio, llegar hacer uno de los mejores en el mercado comercial permitiendo que la poblacion chontaleña visualice el entorno comercial que existe el el departamento de chontales.
 	</p>
 	<a class="pull-right" href="ta.php">Ver detalles</a>
 	<br/>
@@ -174,14 +200,16 @@ La topografía aplicada permite adquirir los conocimientos necesarios para reali
 
 	<div class="span4">
 	<div class="thumbnail">
-	<h3 style="text-align:center">Computación Básica</h3>	
+	<h3 style="text-align:center">Contactenos</h3>	
 	<img src="images/computacion.jpg"/>
 	<div class="caption">
-	<h5>Descripción del Curso</h5>	
+	<h5></h5>	
 	<p align="justify">
-	
-La informática es una ciencia  que en la actualidad ha generalizado su uso en las diferentes ramas del conocimiento,  por la capacidad de optimizar procesos así como de brindar soluciones y excelentes herramientas para realizar las tareas de manera sencilla y ágil.
-De ahí que el estudio de ésta asignatura proporciona los conocimientos y habilidades necesarias para manejar la computadora, organizar y manipular la información en la realización de sus actividades cotidianas como estudiante y de manera general en el ámbito en el que se desenvuelva
+	Telefono: 83663323- 55158315 <br><br>
+        Correo:Avilesyelin3gmail.com 
+               Haroldsalablancagmail.com
+           
+
 	</p>
 	<a class="pull-right" href="cb.php">Ver detalles</a>
 	<br/>
@@ -197,7 +225,7 @@ De ahí que el estudio de ésta asignatura proporciona los conocimientos y habil
 	<div class="well well-small">
 		<h3>Importante</h3>	
 		<p>
-		Lo mejor para nosotros es proporcionar un acceso libre, sencillo y coherente a los materiales de los cursos que se ofrecen en sus modalidades de estudio presencial y a distancia para educadores, estudiantes y autodidactas de todo el mundo.<br><br></b></b>
+		Lo mejor para nosotros es proporcionar un acceso libre, informacion que le ayude a encontrar lo que esta buscando, que se ofrecen en sus modalidades de estudio presencial y a distancia para educadores, estudiantes y autodidactas de todo el mundo.<br><br></b></b>
 		Crear un modelo eficiente basado en estándares generados de OCW Consortium, UNIVERSIA, la tendencia tecnológicas de la Web Social y Semántica.
 		</p>
 	</div>
@@ -222,7 +250,7 @@ De ahí que el estudio de ésta asignatura proporciona los conocimientos y habil
 <footer class="footer">
 
 <hr class="soften"/>
-<p>&copy; Copyright Joseph Godoy, Gerardo Gutierrez y Luis Granda <br/><br/></p>
+<p>&copy; Copyright Jelin María Aviles, Harold Salablanca - Noviembre 2018 <br/><br/></p>
  </footer>
 </div><!-- /container -->
     
