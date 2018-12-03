@@ -10,10 +10,10 @@ if (@!$_SESSION['user']) {
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Proyecto Academias</title>
+    <title>PublishFast</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="author" content="Joseph Godoy">
+    <meta name="author" content="Jelin y Harold">
 
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
 
@@ -87,7 +87,7 @@ if (@!$_SESSION['user']) {
 				echo "<table border='1'; class='table table-hover';>";
 					echo "<tr class='warning'>";
 						echo "<td>Id</td>";
-						echo "<td>Usaurio</td>";
+						echo "<td>Usuario</td>";
 						echo "<td>Password</td>";
 						echo "<td>Correo</td>";
 						echo "<td>Password del administrador</td>";
@@ -168,7 +168,7 @@ if (@!$_SESSION['user']) {
 <footer class="footer">
 
 <hr class="soften"/>
-<p>&copy; Copyright Joseph Godoy <br/><br/></p>
+<p>&copy; Copyright Jelin Aviles, Harold Salablanca<br/><br/></p>
  </footer>
 </div><!-- /container -->
 
